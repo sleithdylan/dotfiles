@@ -3,25 +3,25 @@
 ## Github SSH Key Setup
 
 
-Generate public and private keys
+1. Generate public and private keys
 ```sh
 ssh-keygen -t rsa -C "sleithdylan@gmail.com"
 ```
 
-Open .ssh folder in terminal from user directory
+2. Open .ssh folder in terminal from user directory
 ```sh
 C:\Users\35389\.ssh
 ```
 
-List all files
+3. List all files
 ```sh
 ls -al
 ```
 
-There should be two files:
-id_rsa (Private Key)
-id_rsa.pub (Public Key)
+### There should be two files:
+* id_rsa (Private Key)
+* id_rsa.pub (Public Key)
 
-Open "id-rsa.pub" in a text editor and copy everything in the file.
+4. Open "id-rsa.pub" in a text editor and copy everything in the file.
 
-Open GitHub and add a SSH key and your done!
+5. Open GitHub and add a SSH key and your done!
