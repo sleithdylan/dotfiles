@@ -43,13 +43,15 @@
   // ],
   "window.zoomLevel": 0,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.bracketSpacing": true,
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.semi": true,
+  "prettier.trailingComma": "all",
+  "prettier.singleQuote": true,
   "prettier.jsxSingleQuote": true,
   "prettier.jsxBracketSameLine": true,
-  "prettier.bracketSpacing": true,
-  "prettier.singleQuote": true,
-  "prettier.tabWidth": 2,
-  "prettier.printWidth": 120,
-  "prettier.semi": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "markdown": "html"
@@ -153,5 +155,6 @@
     "HTML (EEx)",
     "HTML (Eex)",
     "plist"
-  ]
+  ],
+  "angular.ngdk": ""
 }
