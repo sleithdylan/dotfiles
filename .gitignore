@@ -3,3 +3,6 @@ node_modules/
 
 # Build directory
 *.DS_Store
+
+# Local VSCode settings
+.vscode
