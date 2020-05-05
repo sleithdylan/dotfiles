@@ -6,6 +6,7 @@
   "workbench.editor.enablePreview": true,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.highlightModifiedTabs": true,
   "editor.cursorBlinking": "phase",
   "editor.cursorWidth": 2,
   "editor.find.seedSearchStringFromSelection": true,
@@ -155,6 +156,5 @@
     "HTML (EEx)",
     "HTML (Eex)",
     "plist"
-  ],
-  "angular.ngdk": ""
+  ]
 }
