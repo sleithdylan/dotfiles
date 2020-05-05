@@ -18,7 +18,7 @@ C:\Users\35389\.ssh
 ls -al
 ```
 
-### There should be two files:
+There should be two files:
 * id_rsa (Private Key)
 * id_rsa.pub (Public Key)
 
