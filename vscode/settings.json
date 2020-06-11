@@ -31,7 +31,7 @@
   "files.exclude": {
     "**/.git": false
   },
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "off",
   "terminal.explorerKind": "external",
   /********** Sets Bash as Default Terminal **********/
   "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
@@ -43,10 +43,29 @@
   "prettier.tabWidth": 2,
   "prettier.useTabs": false,
   "prettier.semi": true,
-  "prettier.trailingComma": "all",
+  "prettier.trailingComma": "none",
   "prettier.singleQuote": true,
   "prettier.jsxSingleQuote": true,
   "prettier.jsxBracketSameLine": true,
+  "prettier.arrowParens": "avoid",
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.postcss": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatter.ts": "prettier",
+  "vetur.format.defaultFormatter.sass": "sass-formatter",
+  "vetur.format.options.tabSize": 2,
+  "vetur.format.options.useTabs": false,
+  "vetur.format.defaultFormatterOptions": {
+    "prettyhtml": {
+      "printWidth": 100,
+      "tabWidth": 2,
+      "singleQuote": false
+    }
+  },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "markdown": "html"
@@ -59,6 +78,12 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
     "source.fixAll.eslint": true
+  },
+  "[vue]": {
+    "editor.formatOnSave": true
+  },
+  "files.associations": {
+    "*.vue": "vue"
   },
   "eslint.alwaysShowStatus": true,
   "eslint.options": {
@@ -94,5 +119,10 @@
     "HTML (Eex)",
     "plist"
   ],
-  "angular.ngdk": ""
+  "angular.ngdk": "",
+  "explorer.compactFolders": false,
+  "editor.fontLigatures": false,
+  "[css]": {},
+  "[git-commit]": {},
+  "vetur.completion.scaffoldSnippetSources": {}
 }
