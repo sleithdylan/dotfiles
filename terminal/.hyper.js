@@ -91,6 +91,12 @@ module.exports = {
       lightWhite: '#FFFFFF'
     },
 
+    // Hyper Border
+    hyperBorder: {
+      borderColors: ['#80cbc4'],
+      borderWidth: '2px'
+    },
+
     // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
     // if left empty, your system's login shell will be used by default
     //
@@ -146,7 +152,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ['hyper-material-theme', 'hyper-tabs-enhanced', 'hyper-blink'],
+  plugins: ['hyper-material-theme', 'hyper-tabs-enhanced', 'hyperborder', 'hyper-blink'],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
@@ -160,7 +166,7 @@ module.exports = {
   MaterialTheme: {
     // Set the theme variant,
     // OPTIONS: 'Darker', 'Palenight', 'Ocean', ''
-    theme: 'Palenight',
+    theme: '',
 
     // [Optional] Set the rgba() app background opacity, useful when enableVibrance is true
     // OPTIONS: From 0.1 to 1
