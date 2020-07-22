@@ -5,7 +5,7 @@
 1. Generate public and private keys
 
 ```sh
-ssh-keygen -t rsa -C "sleithdylan@gmail.com"
+ssh-keygen -t rsa -C "hello@dylansleith.com"
 ```
 
 2. Open .ssh folder in terminal from user directory
@@ -29,7 +29,7 @@ There will be **two** files:
 
 5. Open GitHub and add a SSH key and your done!
 
-## Hide MINGW64 in terminal
+## Hide MINGW64 in terminal (Windows)
 
 1.  Go to `C:\Program Files\Git\etc\profile.d\` folder
 
