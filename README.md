@@ -28,3 +28,13 @@ There will be **two** files:
 4. Open "id_rsa.pub" in a text editor and copy everything in the file.
 
 5. Open GitHub and add a SSH key and your done!
+
+## Hide MINGW64 in terminal
+
+1.  Go to `C:\Program Files\Git\etc\profile.d\` folder
+
+2.  Find and open `git-prompt.sh` file in your text editor
+
+3.  Comment out line `16` and `17`
+
+4.  Restart terminal and you're done!
