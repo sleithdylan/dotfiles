@@ -7,8 +7,11 @@
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.highlightModifiedTabs": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorStyle": "line",
   "editor.cursorBlinking": "phase",
   "editor.cursorWidth": 2,
+  "editor.minimap.size": "fit",
   "editor.find.seedSearchStringFromSelection": true,
   "editor.renderIndentGuides": true,
   "editor.renderLineHighlight": "all",
@@ -16,74 +19,64 @@
   "editor.renderWhitespace": "selection",
   "editor.lineHeight": 22,
   "editor.minimap.enabled": false,
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
   "editor.tabSize": 2,
+  "editor.fontLigatures": false,
+  "editor.fontFamily": "'Source Code Pro', 'Fira Code', Consolas, 'Courier New', monospace",
   "editor.formatOnSave": true,
   "editor.rulers": [80, 100],
   "editor.scrollBeyondLastLine": true,
   "editor.useTabStops": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 100,
   "editor.showFoldingControls": "always",
   "editor.snippetSuggestions": "top",
+  "editor.linkedEditing": true,
+  "debug.toolBarLocation": "docked",
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
   "files.exclude": {
     "**/.git": false
   },
-  "files.autoSave": "off",
   "terminal.explorerKind": "external",
-  /********** Sets Bash as Default Terminal **********/
-  "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
+  "terminal.integrated.shell.linux": "/bin/zsh",
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.external.windowsExec": "C:\\Users\\Dylan\\AppData\\Local\\hyper\\Hyper.exe",
   "window.zoomLevel": 0,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "prettier.bracketSpacing": true,
-  "prettier.printWidth": 100,
-  "prettier.tabWidth": 2,
-  "prettier.useTabs": false,
-  "prettier.semi": true,
   "prettier.trailingComma": "none",
+  "prettier.tabWidth": 2,
+  "prettier.semi": true,
   "prettier.singleQuote": true,
-  "prettier.jsxSingleQuote": true,
-  "prettier.jsxBracketSameLine": true,
-  "prettier.arrowParens": "avoid",
-  "vetur.format.defaultFormatter.html": "prettyhtml",
-  "vetur.format.defaultFormatter.css": "prettier",
-  "vetur.format.defaultFormatter.postcss": "prettier",
-  "vetur.format.defaultFormatter.scss": "prettier",
-  "vetur.format.defaultFormatter.less": "prettier",
-  "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
-  "vetur.format.defaultFormatter.js": "prettier",
-  "vetur.format.defaultFormatter.ts": "prettier",
-  "vetur.format.defaultFormatter.sass": "sass-formatter",
-  "vetur.format.options.tabSize": 2,
-  "vetur.format.options.useTabs": false,
-  "vetur.format.defaultFormatterOptions": {
-    "prettyhtml": {
-      "printWidth": 100,
-      "tabWidth": 2,
-      "singleQuote": false
-    }
-  },
+  "prettier.printWidth": 100,
+  "prettier.bracketSpacing": true,
+  "prettier.useTabs": false,
+  "prettier.jsxSingleQuote": false,
+  "prettier.jsxBracketSameLine": false,
+  "prettier.arrowParens": "always",
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.currentLine.enabled": false,
+  "gitlens.defaultDateFormat": null,
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "markdown": "html"
+    "javascript": "javascriptreact"
   },
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
-  "emmet.triggerExpansionOnTab": true,
-  /********** FORMAT ON SAVE SETTINGS **********/
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.fixAll.eslint": true
-  },
-  "[vue]": {
-    "editor.formatOnSave": true
-  },
-  "files.associations": {
-    "*.vue": "vue"
+  "emmet.triggerExpansionOnTab": false,
+  "emojisense.languages": {
+    "markdown": true,
+    "plaintext": {
+      "markupCompletionsEnabled": false,
+      "emojiDecoratorsEnabled": false
+    },
+    "scminput": true,
+    "git-commit": true,
+    "javascript": true,
+    "javascriptreact": true,
+    "html": true
   },
   "eslint.alwaysShowStatus": true,
   "eslint.options": {
@@ -91,13 +84,11 @@
   },
   "sync.gist": "a16580959e1d88595e1f35ba1dc998ae",
   "sync.forceUpload": true,
-  "liveServer.settings.donotShowInfoMsg": true,
   "beautify.language": {
     "html": ["html", "php"],
     "css": [],
     "js": []
   },
-  "autoprefixer.options": {},
   "auto-close-tag.activationOnLanguage": [
     "xml",
     "php",
@@ -118,11 +109,5 @@
     "HTML (EEx)",
     "HTML (Eex)",
     "plist"
-  ],
-  "angular.ngdk": "",
-  "explorer.compactFolders": false,
-  "editor.fontLigatures": false,
-  "[css]": {},
-  "[git-commit]": {},
-  "vetur.completion.scaffoldSnippetSources": {}
+  ]
 }
