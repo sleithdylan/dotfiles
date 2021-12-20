@@ -1,12 +1,14 @@
 {
   "breadcrumbs.enabled": true,
-  "workbench.colorTheme": "Material Theme Palenight High Contrast",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.closeEmptyGroups": false,
   "workbench.editor.enablePreview": true,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.highlightModifiedTabs": true,
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "workbench.editor.untitled.hint": "hidden",
+  "editor.formatOnSave": true,
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorStyle": "line",
   "editor.cursorBlinking": "phase",
@@ -23,7 +25,6 @@
   "editor.tabSize": 2,
   "editor.fontLigatures": false,
   "editor.fontFamily": "'Source Code Pro', 'Fira Code', Consolas, 'Courier New', monospace",
-  "editor.formatOnSave": true,
   "editor.rulers": [80, 100],
   "editor.scrollBeyondLastLine": true,
   "editor.useTabStops": false,
@@ -40,12 +41,14 @@
   "files.exclude": {
     "**/.git": false
   },
-  "terminal.explorerKind": "external",
-  "terminal.integrated.shell.linux": "/bin/zsh",
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.external.windowsExec": "C:\\Users\\Dylan\\AppData\\Local\\hyper\\Hyper.exe",
-  "window.zoomLevel": 0,
+  "terminal.integrated.fontFamily": "'FiraCode Nerd Font'",
+  "terminal.explorerKind": "external",
+  "php.validate.executablePath": "C:/MAMP/bin/php/php7.4.1/php.exe",
+  "security.workspace.trust.untrustedFiles": "open",
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
   "prettier.trailingComma": "none",
   "prettier.tabWidth": 2,
   "prettier.semi": true,
@@ -56,9 +59,6 @@
   "prettier.jsxSingleQuote": false,
   "prettier.jsxBracketSameLine": false,
   "prettier.arrowParens": "always",
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.currentLine.enabled": false,
-  "gitlens.defaultDateFormat": null,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -85,7 +85,7 @@
   "sync.gist": "a16580959e1d88595e1f35ba1dc998ae",
   "sync.forceUpload": true,
   "beautify.language": {
-    "html": ["html", "php"],
+    "html": ["html", "php", "blade"],
     "css": [],
     "js": []
   },
