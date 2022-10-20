@@ -1,8 +1,14 @@
-# Project dependencies
+# Installed NPM modules
 node_modules/
+npm-debug.log
+yarn-error.log
 
-# Build directory
+# Folder view configuration files
 *.DS_Store
+desktop.ini
+
+# Thumbnail cache files
+Thumbs.db
 
 # Local VSCode settings
 .vscode

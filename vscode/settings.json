@@ -6,16 +6,13 @@
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.highlightModifiedTabs": true,
-  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "workbench.colorTheme": "Nord",
   "workbench.editor.untitled.hint": "hidden",
-  "editor.formatOnSave": true,
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorStyle": "line",
   "editor.cursorBlinking": "phase",
   "editor.cursorWidth": 2,
   "editor.minimap.size": "fit",
-  "editor.find.seedSearchStringFromSelection": true,
-  "editor.renderIndentGuides": true,
   "editor.renderLineHighlight": "all",
   "editor.insertSpaces": false,
   "editor.renderWhitespace": "selection",
@@ -34,6 +31,10 @@
   "editor.showFoldingControls": "always",
   "editor.snippetSuggestions": "top",
   "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.formatOnSave": true,
+  "editor.guides.indentation": true,
   "debug.toolBarLocation": "docked",
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
@@ -45,20 +46,8 @@
   "terminal.external.windowsExec": "C:\\Users\\Dylan\\AppData\\Local\\hyper\\Hyper.exe",
   "terminal.integrated.fontFamily": "'FiraCode Nerd Font'",
   "terminal.explorerKind": "external",
-  "php.validate.executablePath": "C:/MAMP/bin/php/php7.4.1/php.exe",
-  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "bracket-pair-colorizer-2.depreciation-notice": false,
-  "prettier.trailingComma": "none",
-  "prettier.tabWidth": 2,
-  "prettier.semi": true,
-  "prettier.singleQuote": true,
-  "prettier.printWidth": 100,
-  "prettier.bracketSpacing": true,
-  "prettier.useTabs": false,
-  "prettier.jsxSingleQuote": false,
-  "prettier.jsxBracketSameLine": false,
-  "prettier.arrowParens": "always",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -66,29 +55,17 @@
     "javascript": "jsx"
   },
   "emmet.triggerExpansionOnTab": false,
-  "emojisense.languages": {
-    "markdown": true,
-    "plaintext": {
-      "markupCompletionsEnabled": false,
-      "emojiDecoratorsEnabled": false
-    },
-    "scminput": true,
-    "git-commit": true,
-    "javascript": true,
-    "javascriptreact": true,
-    "html": true
-  },
   "eslint.alwaysShowStatus": true,
   "eslint.options": {
     "extensions": [".html", ".js", ".vue", ".jsx"]
   },
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
   "sync.gist": "a16580959e1d88595e1f35ba1dc998ae",
   "sync.forceUpload": true,
-  "beautify.language": {
-    "html": ["html", "php", "blade"],
-    "css": [],
-    "js": []
-  },
   "auto-close-tag.activationOnLanguage": [
     "xml",
     "php",
@@ -109,5 +86,14 @@
     "HTML (EEx)",
     "HTML (Eex)",
     "plist"
-  ]
+  ],
+  "php.validate.executablePath": "C:/MAMP/bin/php/php7.4.1/php.exe",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.confirmSync": false,
+  "discord.removeRemoteRepository": true,
+  "discord.removeLowerDetails": true,
+  "discord.removeDetails": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "tabnine.experimentalAutoImports": true
 }
