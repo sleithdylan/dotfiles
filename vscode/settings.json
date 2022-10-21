@@ -35,6 +35,10 @@
   "editor.guides.bracketPairs": "active",
   "editor.formatOnSave": true,
   "editor.guides.indentation": true,
+  "editor.codeActionsOnSave": {
+    // Fix eslint errors on save
+    "source.fixAll.eslint": true
+  },
   "debug.toolBarLocation": "docked",
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
