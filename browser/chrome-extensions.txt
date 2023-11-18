@@ -1,0 +1,30 @@
+Accessibility Insights for Web
+Apollo Client Devtools
+Awesome Screen Reorder & Screenshot
+axe DevTools - Web Accessibility Testing
+Bitwarden - Free Password Manager
+Checker Plus for Google Calendar™
+ColorZilla
+daily.dev | The homepage developers deserve
+Email Tracker for Gmail, Mail Merge-Mailtrack
+Google Docs Offline
+Grammarly: Grammar Checker and AI Writing App
+Hunter - Email Finder Extension
+JSON Viewer
+OneTab
+Open Graph Preview
+PayPal Honey: Automatic Coupons & Cash Back
+PocketTube: Youtube Subscription Manager
+Raindrop.io
+React Developer Tools
+Redux DevTools
+Responsively Helper
+Save Google Docs & Sheets to other clouds
+SEO META in 1 CLICK
+SEO Minion
+Stark Accessibility Checker
+uBlock Origin
+Wappalyzer - Technology profiler
+WCAG Color contrast checker
+Web Developer Checklist
+WhatFont
