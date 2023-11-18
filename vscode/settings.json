@@ -1,14 +1,28 @@
 {
+  // NORMAL SETTINGS
+  // ===============
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on",
+    "other": "on"
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.wordBasedSuggestions": true,
+  "css.validate": true,
+
+  // SHARED SETTINGS
+  // ===============
   "breadcrumbs.enabled": true,
+  "workbench.colorTheme": "City Lights",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.closeEmptyGroups": false,
   "workbench.editor.enablePreview": true,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.highlightModifiedTabs": true,
-  "workbench.colorTheme": "Nord",
-  "workbench.editor.untitled.hint": "hidden",
-  "editor.cursorSmoothCaretAnimation": true,
+  "workbench.settings.applyToAllProfiles": [],
+  "workbench.editor.empty.hint": "hidden",
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "line",
   "editor.cursorBlinking": "phase",
   "editor.cursorWidth": 2,
@@ -26,6 +40,24 @@
   "editor.scrollBeyondLastLine": true,
   "editor.useTabStops": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.fontVariations": false,
+  "editor.indentSize": "tabSize",
+  "editor.language.colorizedBracketPairs": [],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "editor.formatOnType": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.organizeImports": true
+    },
+    "editor.formatOnType": true
+  },
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 100,
   "editor.showFoldingControls": "always",
@@ -33,11 +65,9 @@
   "editor.linkedEditing": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-  "editor.formatOnSave": true,
   "editor.guides.indentation": true,
-  "editor.codeActionsOnSave": {
-    // Fix eslint errors on save
-    "source.fixAll.eslint": true
+  "editor.tokenColorCustomizations": {
+    "textMateRules": []
   },
   "debug.toolBarLocation": "docked",
   "explorer.confirmDragAndDrop": false,
@@ -59,7 +89,6 @@
     "javascript": "jsx"
   },
   "emmet.triggerExpansionOnTab": false,
-  "eslint.alwaysShowStatus": true,
   "eslint.options": {
     "extensions": [".html", ".js", ".vue", ".jsx"]
   },
@@ -68,36 +97,67 @@
       "mode": "auto"
     }
   ],
-  "sync.gist": "a16580959e1d88595e1f35ba1dc998ae",
-  "sync.forceUpload": true,
+  "material-icon-theme.saturation": 0,
   "auto-close-tag.activationOnLanguage": [
     "xml",
     "php",
-    "blade",
-    "ejs",
-    "jinja",
     "javascript",
     "javascriptreact",
-    "typescript",
-    "typescriptreact",
     "plaintext",
     "markdown",
     "vue",
-    "liquid",
-    "erb",
-    "lang-cfml",
-    "cfml",
-    "HTML (EEx)",
-    "HTML (Eex)",
-    "plist"
+    "liquid"
   ],
-  "php.validate.executablePath": "C:/MAMP/bin/php/php7.4.1/php.exe",
   "liveServer.settings.donotShowInfoMsg": true,
   "security.workspace.trust.untrustedFiles": "open",
   "git.confirmSync": false,
-  "discord.removeRemoteRepository": true,
-  "discord.removeLowerDetails": true,
-  "discord.removeDetails": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "tabnine.experimentalAutoImports": true
+  "tabnine.experimentalAutoImports": true,
+  "prettier.singleQuote": true,
+  "liveServer.settings.ChromeDebuggingAttachment": false,
+  "settingsSync.ignoredExtensions": [],
+  "settingsSync.ignoredSettings": [],
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "files.eol": "\n",
+  "files.associations": {
+    "*.json.liquid": "json",
+    "*.yaml.liquid": "yaml",
+    "*.md.liquid": "markdown",
+    "*.js.liquid": "liquid-javascript",
+    "*.css.liquid": "liquid-css",
+    "*.scss.liquid": "liquid-scss",
+    ".env*": "dotenv"
+  },
+  "dotenv.enableAutocloaking": false,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  }
+
+  // VIDEO RECORDING SETTINGS
+  // ========================
+  // "window.zoomLevel": 3, // 150%
+  // "editor.quickSuggestions": false,
+  // "editor.suggestOnTriggerCharacters": false,
+  // "css.validate": false,
+  // "workbench.editor.showTabs": false,
+  // "workbench.activityBar.visible": false
+  // "workbench.statusBar.visible": false
 }
