@@ -82,13 +82,13 @@ module.exports = {
 
     // Hyper Border
     hyperBorder: {
-      borderColors: ['#B7C5D3'],
+      borderColors: ['#ffcc66'],
     },
 
     // hypercwd
-    hypercwd: {
-      initialWorkingDirectory: 'C:/dev',
-    },
+    //hypercwd: {
+    //initialWorkingDirectory: 'C:/dev',
+    //},
 
     // Hyper Window Opacity
     opacity: 0.95,
@@ -159,7 +159,7 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    'hyper-city-lights',
+    'hyper-halcyon-theme',
     'hyper-opacity',
     'hyper-tabs-enhanced',
     'hyperborder',
