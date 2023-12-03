@@ -86,9 +86,9 @@ module.exports = {
     },
 
     // hypercwd
-    //hypercwd: {
-    //initialWorkingDirectory: 'C:/dev',
-    //},
+    hypercwd: {
+      initialWorkingDirectory: 'C:\\dev',
+    },
 
     // Hyper Window Opacity
     opacity: 0.95,
